@@ -10,21 +10,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import "./App.css";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { IconProvider } from "./Components/Context/IconEffectContext.js";
 
 const App = () => {
     return(
         <div className="class_main_container">
-            <BrowserRouter basename={process.env.PUBLIC_URL}>
+            {/* <HashRouter basename={process.env.PUBLIC_URL}>
                 <Routes>
                     <Route exact path="/" element={<Inicio/>}/>
                     <Route exact path="/productos" element={<Productos/>}/>
                     <Route exact path="/compras" element={<Compras/>}/>
                     <Route exact path="/proyecto" element={<Proyecto/>}/>
                 </Routes>
-            </BrowserRouter>
+            </HashRouter> */}
             {/* <Inicio/> */}
         </div>
     );
