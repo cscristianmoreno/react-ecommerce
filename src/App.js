@@ -19,10 +19,10 @@ const App = () => {
         <div className="class_main_container">
             <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <Routes>
-                    <Route path="/" element={<Inicio/>}/>
-                    <Route path="/productos" element={<Productos/>}/>
-                    <Route path="/compras" element={<Compras/>}/>
-                    <Route path="/proyecto" element={<Proyecto/>}/>
+                    <Route exact path="/" element={<Inicio/>}/>
+                    <Route exact path="/productos" element={<Productos/>}/>
+                    <Route exact path="/compras" element={<Compras/>}/>
+                    <Route exact path="/proyecto" element={<Proyecto/>}/>
                 </Routes>
             </BrowserRouter>
             {/* <Inicio/> */}
