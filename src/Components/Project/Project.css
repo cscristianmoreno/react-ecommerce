@@ -1,0 +1,39 @@
+.class_project_container {
+    margin-bottom: 50px;
+
+}
+
+
+.class_project_technology_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.class_project_technology_title {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 35px;
+    font-family: "Open Sans", sans-serif;
+    color: #37333d;
+}
+
+.class_project_technology_container img {
+    width: 50px;
+    height: 50px;
+}
+
+.class_project_technology_container .class_offer_icon_container {
+    justify-content: center;
+}
+
+.class_project_technology_container .class_offer_icon {
+    width: 200px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.class_project_technology_container .class_offer_icon_description_title {
+    font-size: 14px;
+}

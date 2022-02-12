@@ -1,0 +1,93 @@
+.class_shopping_cart_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.class_shopping_title {
+    display: flex;
+    width: 80%;
+    text-align: left;
+    margin-top: 20px;
+    color: #37333d;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.class_shopping_items_container {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cfcccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.class_shopping_items_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-width: 1px;
+    border-color: orange;
+    width: 100%;
+    padding: 10px;
+}
+
+.class_items_action_container {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 79%;
+    margin-bottom: 30px;
+}
+
+
+.class_items_button_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.class_item_total_pay_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 80%;
+    border-style: solid;
+    border-color: orange;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-width: 1px;
+}
+
+.class_item_total_pay {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.table tr, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table>:not(:first-child) {
+    border-top: 1.5px solid orange !important;
+}

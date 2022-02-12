@@ -1,0 +1,84 @@
+.class_profits_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfcfc;
+    width: 100%;
+    box-shadow: 0px 0px 2px #adadad;
+}
+
+.class_profits_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin-top: 115px;
+}
+
+.class_profits {
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+    margin-bottom: 50px;
+}
+
+.class_profits_normal {
+    display: flex;
+}
+
+.class_profits_responsive {
+    display: none;
+}
+
+.class_profits_title_container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.class_profits_title {
+    color: #37333d;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.class_profits_text {
+    color: #5e5d5d; 
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+
+}
+
+.class_profits_icons_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 75px;
+    height: 200px;
+}
+
+.class_profits_icon {
+    display: flex;
+    align-items: center;
+}
+
+.class_profits_icon span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #37333d;
+    margin-left: 10px;
+}
+
+.class_profits_icon i {
+    border-style: solid;
+    border-radius: 100%;
+    background-color: #b8a005;
+    color: #fcfcfc;
+    font-size: 20px;
+    padding: 10px;
+}

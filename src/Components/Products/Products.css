@@ -1,0 +1,121 @@
+.class_products_main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.class_products_title_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.class_products_title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    color: #37333d;
+    font-size: 20px;
+}
+
+.class_products_products_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    max-height: 700px;
+    overflow: auto;
+    margin-bottom: 50px;
+}
+
+.class_products_product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.class_products_product:hover {
+    box-shadow: 0px 0px 10px #b6b6b6;
+    transform: scale(1.025);
+}
+
+.class_products_product_image_container {
+    display: flex;
+    width: 60%;
+    height: 60%;
+}
+
+.class_products_product_image_container img {
+    width: 100%;
+    height: 100%;
+}
+
+.class_products_product span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.class_products_product .class_products_price {
+    color: #5252ff;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.class_products_search {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    align-items: center;
+}
+
+.class_products_search .form-select {
+    width: auto;
+}
+
+.class_products_search .form-check-input {
+    margin: 0;
+}
+
+.class_button_product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0%;
+    background-color: #047dc4;
+    outline: none;
+    border: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: 0.5s;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.class_button_product:hover {
+    background-color: #04bef7;
+}
+
+.class_button_product_display {
+    display: flex;  
+    width: 50%;
+    padding: 7px;
+}
+
+.class_button_product:disabled {
+    background-color: #05f7ff;
+}
