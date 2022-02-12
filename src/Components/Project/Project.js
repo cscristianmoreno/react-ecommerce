@@ -16,7 +16,7 @@ const Project = () => {
 
                     <span className="class_announcement_text_body">
                         E-Commerce es una simulación ficticia de un comercio electrónico basado en la venta
-                        de productos a través de Internet. Este proyecto se realizó con el fin de superar las capacidades
+                        de productos a través de Internet. Este proyecto se realizó con el fin de superar y aumentar las capacidades
                         personales en cuanto a conocimientos respecta.  
                     </span>
                 </div>

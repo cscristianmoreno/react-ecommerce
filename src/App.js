@@ -17,15 +17,15 @@ import { IconProvider } from "./Components/Context/IconEffectContext.js";
 const App = () => {
     return(
         <div className="class_main_container">
-            {/* <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <Routes>
                     <Route path="/" element={<Inicio/>}/>
                     <Route path="/productos" element={<Productos/>}/>
                     <Route path="/compras" element={<Compras/>}/>
                     <Route path="/proyecto" element={<Proyecto/>}/>
                 </Routes>
-            </BrowserRouter> */}
-            <Inicio/>
+            </BrowserRouter>
+            {/* <Inicio/> */}
         </div>
     );
 }

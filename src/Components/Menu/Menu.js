@@ -59,15 +59,13 @@ const Menu = () => {
                 </div>
 
                 <ul className="class_menu_items">
-                    <li>
-                        <a href="/">Inicio</a>
-                    </li>
-                    <li><a href="/productos">Nuestros productos</a></li>
-                    <li><a href="/proyecto">Acerca del proyecto</a></li>
+                    <li><a href={process.env.PUBLIC_URL}>Inicio</a></li>
+                    <li><a href={process.env.PUBLIC_URL + "/productos"}>Nuestros productos</a></li>
+                    <li><a href={process.env.PUBLIC_URL + "/proyecto"}>Acerca del proyecto</a></li>
                 </ul>
 
                 <div class="class_menu_icon_container">
-                    <a href="/compras"><i className="fas fa-shopping-cart"/></a>
+                    <a href={process.env.PUBLIC_URL + "/compras"}><i className="fas fa-shopping-cart"/></a>
                     <i className={"fas fa-circle " + "class_icon_effect " + iconState}/>
                 </div>
             </div>
@@ -88,15 +86,15 @@ const Menu = () => {
 
                 <div className="class_menu_responsive_title">
                     <div class="class_menu_icon_container">
-                        <a href="/compras"><i className="fas fa-shopping-cart"/></a>
+                        <a href={process.env.PUBLIC_URL + "/compras"}><i className="fas fa-shopping-cart"/></a>
                         <i className={"fas fa-circle " + "class_icon_effect " + iconState}/>
                     </div>
                 </div>
 
                 <ul className="class_menu_items">
-                    <li><a href="/">Inicio</a></li>
-                    <li><a href="/productos">Nuestros productos</a></li>
-                    <li><a href="/proyecto">Acerca de este proyecto</a></li>
+                    <li><a href={process.env.PUBLIC_URL}>Inicio</a></li>
+                    <li><a href={process.env.PUBLIC_URL + "/productos"}>Nuestros productos</a></li>
+                    <li><a href={process.env.PUBLIC_URL + "/proyecto"}>Acerca del proyecto</a></li>
                 </ul>
             </div>
         </>
