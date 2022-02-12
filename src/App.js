@@ -17,15 +17,14 @@ import { IconProvider } from "./Components/Context/IconEffectContext.js";
 const App = () => {
     return(
         <div className="class_main_container">
-            {/* <HashRouter basename={process.env.PUBLIC_URL}>
+            <HashRouter>
                 <Routes>
-                    <Route exact path="/" element={<Inicio/>}/>
-                    <Route exact path="/productos" element={<Productos/>}/>
-                    <Route exact path="/compras" element={<Compras/>}/>
-                    <Route exact path="/proyecto" element={<Proyecto/>}/>
+                    <Route path="/" element={<Inicio/>}/>
+                    <Route path="/productos" element={<Productos/>}/>
+                    <Route path="/compras" element={<Compras/>}/>
+                    <Route path="/proyecto" element={<Proyecto/>}/>
                 </Routes>
-            </HashRouter> */}
-            {/* <Inicio/> */}
+            </HashRouter>
         </div>
     );
 }
