@@ -91,7 +91,7 @@ const Products = () => {
             if (cookies.get("products_name").includes(str.name) === true) {
                 buttonRefs.current[index].setAttribute("disabled", true);
                 buttonRefs.current[index].classList.add("class_button_product_display");
-                buttonRefs.current[index].textContext = "Añadido";
+                // buttonRefs.current[index].textContext = "Añadido";
             }
             else {
                 buttonRefs.current[index].removeAttribute("disabled", true);
@@ -174,7 +174,7 @@ const Products = () => {
         cookies.set("products_price", shopState.price, { path: "/" } );
         cookies.set("products_date", shopState.date, { path: "/" } );
 
-        ev.target.innerHTML = "Añadido";
+        // ev.target.innerHTML = "Añadido";
         ev.target.setAttribute("disabled", true);
     }
 
