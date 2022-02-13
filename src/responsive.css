@@ -115,6 +115,20 @@
         border-color: white;
     }
 
+    .class_menu_items a:first-child {
+        border-top: 1px;
+        border-color: white;
+        border-left: 0px;
+        border-right: 0px;
+        border-style: solid;
+    }
+
+    .class_menu_items a {
+        color: white;
+        text-decoration: none;
+        border: 0;
+    }
+
     .class_menu_items i {
         padding: 10px;
         border-radius: 100%;
@@ -125,15 +139,7 @@
     }
 
     .class_menu_items li:hover {
-        transform: none;
-    }
-
-    .class_menu_items li:first-child {
-        border-top: 1px;
-        border-color: white;
-        border-left: 0px;
-        border-right: 0px;
-        border-style: solid;
+        transform: skew(0);
     }
 
     .class_menu_normal {

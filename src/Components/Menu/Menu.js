@@ -124,9 +124,9 @@ const Menu = () => {
                 </div>
 
                 <ul className="class_menu_items">
-                <li><a ref={menuResponsiveItemInicio} href={process.env.PUBLIC_URL}>Inicio</a></li>
-                    <li><a ref={menuResponsiveItemProductos} href={process.env.PUBLIC_URL + "/#/productos"}>Nuestros productos</a></li>
-                    <li><a ref={menuResponsiveItemProyecto} href={process.env.PUBLIC_URL + "/#/proyecto"}>Acerca del proyecto</a></li>
+                    <a ref={menuResponsiveItemInicio} href={process.env.PUBLIC_URL}><li>Inicio</li></a>
+                    <a ref={menuResponsiveItemProductos} href={process.env.PUBLIC_URL + "/#/productos"}><li>Nuestros productos</li></a>
+                    <a ref={menuResponsiveItemProyecto} href={process.env.PUBLIC_URL + "/#/proyecto"}><li>Acerca del proyecto</li></a>
                 </ul>
             </div>
         </>
