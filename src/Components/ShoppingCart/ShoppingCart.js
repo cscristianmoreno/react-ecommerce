@@ -101,7 +101,7 @@ const ShoppingCart = () => {
                     {
                         shopState.name.map((str, index) => {
                             return(
-                                <tr>
+                                <tr key={index}>
                                     <td><img style={{width: "100px"}} src={require(`../Products/${shopState.image[index].replace("./", "")}`)}/></td>
                                     <td>{shopState.name[index]}</td>
                                     <td>1</td>
