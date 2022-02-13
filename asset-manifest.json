@@ -1,15 +1,11 @@
 {
   "files": {
-    "main.css": "/react-ecommerce/static/css/main.e3e85202.css",
-    "main.js": "/react-ecommerce/static/js/main.2b5f0206.js",
+    "main.css": "/react-ecommerce/static/css/main.60f6e0d5.css",
+    "main.js": "/react-ecommerce/static/js/main.bbdc3d1f.js",
     "static/js/787.28cb0dcd.chunk.js": "/react-ecommerce/static/js/787.28cb0dcd.chunk.js",
-    "static/media/comodidad.svg": "/react-ecommerce/static/media/comodidad.129a203f86500e8e98c2dbae7921f755.svg",
-    "static/media/imagen_celular.jpg": "/react-ecommerce/static/media/imagen_celular.88fe193e7f0af2ed27e7.jpg",
     "static/media/imagen_anuncio.svg": "/react-ecommerce/static/media/imagen_anuncio.bbb46f3707c300ce7c9824ec8205f081.svg",
-    "static/media/imagen_hombre.jpg": "/react-ecommerce/static/media/imagen_hombre.fd07b3ee47a295d7daba.jpg",
     "static/media/bermuda_hombre_algodon.jpg": "/react-ecommerce/static/media/bermuda_hombre_algodon.84a6d11e835aef01e85a.jpg",
     "static/media/remera_adultos_dobby.jpg": "/react-ecommerce/static/media/remera_adultos_dobby.2d135e15d7911b02a8a1.jpg",
-    "static/media/alcance.svg": "/react-ecommerce/static/media/alcance.3eb571ad8429b4f2e7e741cad6e5f5f9.svg",
     "static/media/pantalon_corto_short.jpg": "/react-ecommerce/static/media/pantalon_corto_short.f6263dee361e19ecc4ef.jpg",
     "static/media/reloj_pulsera_hombres.jpg": "/react-ecommerce/static/media/reloj_pulsera_hombres.4b8c8b0843f6accb56cc.jpg",
     "static/media/reloj_pulsera_malla_silicona.jpg": "/react-ecommerce/static/media/reloj_pulsera_malla_silicona.a84466dfe62a3f237bef.jpg",
@@ -19,7 +15,6 @@
     "static/media/smartwatch_microwear.jpg": "/react-ecommerce/static/media/smartwatch_microwear.367d2b51e98c14cb8b14.jpg",
     "static/media/dooge_s96_pro_dual.jpg": "/react-ecommerce/static/media/dooge_s96_pro_dual.d27fae3d6c15ce3c52dc.jpg",
     "static/media/reloj_tactico_militar.jpg": "/react-ecommerce/static/media/reloj_tactico_militar.6a273d1f865aabd28f3b.jpg",
-    "static/media/acepta_pagos.svg": "/react-ecommerce/static/media/acepta_pagos.7edd3b86f8e613e7f96503521c1af3f3.svg",
     "static/media/remera_r4_60_aniversario.jpg": "/react-ecommerce/static/media/remera_r4_60_aniversario.029c76a56e9f64d5712f.jpg",
     "static/media/smartwatch_colmi_p8.jpg": "/react-ecommerce/static/media/smartwatch_colmi_p8.dff66ff755275919b522.jpg",
     "static/media/remera_uchiha.jpg": "/react-ecommerce/static/media/remera_uchiha.753062a0ed45e4b6f358.jpg",
@@ -39,14 +34,10 @@
     "static/media/nokia_106.jpg": "/react-ecommerce/static/media/nokia_106.eff36a3d75e9f6c0b909.jpg",
     "static/media/pantalon_chupin_elastizado.jpg": "/react-ecommerce/static/media/pantalon_chupin_elastizado.b1c245131449d4de9e58.jpg",
     "static/media/remerones_de_personajes.jpg": "/react-ecommerce/static/media/remerones_de_personajes.b2d9b2fdb71c34a7a19b.jpg",
-    "static/media/imagen_personas.svg": "/react-ecommerce/static/media/imagen_personas.78bcdc735b09800b454a247c65c73d80.svg",
     "static/media/joggins_hombre_deportivo.jpg": "/react-ecommerce/static/media/joggins_hombre_deportivo.48cfab217ece298f44e8.jpg",
     "static/media/reloj_led_touch_pulsera_silicona.jpg": "/react-ecommerce/static/media/reloj_led_touch_pulsera_silicona.3d1e0d385d4a73297326.jpg",
     "static/media/remera_oversize_manga_corta.jpg": "/react-ecommerce/static/media/remera_oversize_manga_corta.2227e4c9d49960ab2a0e.jpg",
-    "static/media/atencion.svg": "/react-ecommerce/static/media/atencion.a260d56912e64c64798ba54e497bff97.svg",
-    "static/media/costos_reducidos.svg": "/react-ecommerce/static/media/costos_reducidos.2559776993eed20b4ba3082c3d33f531.svg",
     "static/media/smartphone_alcatel_1.webp": "/react-ecommerce/static/media/smartphone_alcatel_1.ce9c94a9c9575618cad2.webp",
-    "static/media/descuentos.svg": "/react-ecommerce/static/media/descuentos.52b0386d02a3043c3fd804321d63a781.svg",
     "static/media/javascript.svg": "/react-ecommerce/static/media/javascript.86d4ce547c5ff8fe32dc02e1bc365a67.svg",
     "static/media/boostrap.svg": "/react-ecommerce/static/media/boostrap.0b19dd3a86046507f0454acee37a3825.svg",
     "static/media/alcatel_1l_open.webp": "/react-ecommerce/static/media/alcatel_1l_open.a6514cc958f91c2a5bc1.webp",
@@ -54,12 +45,12 @@
     "static/media/html.svg": "/react-ecommerce/static/media/html.5a57b18fd4d9a9a5d29c2a68e925a327.svg",
     "static/media/css.svg": "/react-ecommerce/static/media/css.15fd914831e6ad139d7c90ee6aa099db.svg",
     "index.html": "/react-ecommerce/index.html",
-    "main.e3e85202.css.map": "/react-ecommerce/static/css/main.e3e85202.css.map",
-    "main.2b5f0206.js.map": "/react-ecommerce/static/js/main.2b5f0206.js.map",
+    "main.60f6e0d5.css.map": "/react-ecommerce/static/css/main.60f6e0d5.css.map",
+    "main.bbdc3d1f.js.map": "/react-ecommerce/static/js/main.bbdc3d1f.js.map",
     "787.28cb0dcd.chunk.js.map": "/react-ecommerce/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3e85202.css",
-    "static/js/main.2b5f0206.js"
+    "static/css/main.60f6e0d5.css",
+    "static/js/main.bbdc3d1f.js"
   ]
 }
