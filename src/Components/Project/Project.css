@@ -20,8 +20,8 @@
 }
 
 .class_project_technology_container img {
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
 }
 
 .class_project_technology_container .class_offer_icon_container {
@@ -36,4 +36,12 @@
 
 .class_project_technology_container .class_offer_icon_description_title {
     font-size: 14px;
+}
+
+.class_project_icon_normal {
+    display: flex;
+}
+
+.class_project_icon_responsive {
+    display: none;
 }

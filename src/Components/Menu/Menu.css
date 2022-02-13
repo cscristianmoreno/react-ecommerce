@@ -101,7 +101,7 @@
     transition: 0.25s;
 }
 
-.class_menu_icon_container i:hover {
+.class_menu_normal .class_menu_icon_container i:hover {
     color: #fca607;
 }
 

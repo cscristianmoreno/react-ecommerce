@@ -24,7 +24,7 @@ const Project = () => {
                 <div className="class_project_technology_container">
                     <span className="class_project_technology_title">TECNOLOGÍAS UTILIZADAS</span>
 
-                    <div className="class_offer_icon_container">
+                    <div className="class_project_icon_normal class_offer_icon_container">
                         <div className="class_offer_icon">
                             <img src={imagen_react} className="class_offer_image"/>
                             <span className="class_offer_icon_description_title">REACT</span>
@@ -45,6 +45,37 @@ const Project = () => {
                             <span className="class_offer_icon_description_title">JAVASCRIPT</span>
                         </div>
 
+                        <div className="class_offer_icon">
+                            <img src={imagen_boostrap} className="class_offer_image"/>
+                            <span className="class_offer_icon_description_title">BOOSTRAP</span>
+                        </div>
+                    </div>
+
+                    <div className="class_project_icon_responsive class_offer_icon_container">
+                        <div className="class_offer_icon">
+                            <img src={imagen_react} className="class_offer_image"/>
+                            <span className="class_offer_icon_description_title">REACT</span>
+                        </div>
+                
+                        <div className="class_offer_icon">
+                            <img src={imagen_html} className="class_offer_image"/>
+                            <span className="class_offer_icon_description_title">HTML</span>
+                        </div>
+                    </div>
+
+                    <div className="class_project_icon_responsive class_offer_icon_container">
+                        <div className="class_offer_icon">
+                            <img src={imagen_css} className="class_offer_image"/>
+                            <span className="class_offer_icon_description_title">CSS</span>
+                        </div>
+
+                        <div className="class_offer_icon">
+                            <img src={imagen_javascript} className="class_offer_image"/>
+                            <span className="class_offer_icon_description_title">JAVASCRIPT</span>
+                        </div>
+                    </div>
+
+                    <div className="class_project_icon_responsive class_offer_icon_container">
                         <div className="class_offer_icon">
                             <img src={imagen_boostrap} className="class_offer_image"/>
                             <span className="class_offer_icon_description_title">BOOSTRAP</span>
