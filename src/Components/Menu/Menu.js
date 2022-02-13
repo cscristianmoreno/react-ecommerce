@@ -59,7 +59,7 @@ const Menu = () => {
             <div ref={menuRef} className={"class_header_menu " + "class_menu_normal " + menuClass }>
                 <div className="class_header_menu_title">
                     <div className="class_header_title_container">
-                        <ImagenMenu/>
+                        <a href={process.env.PUBLIC_URL}><ImagenMenu /></a>
                     </div>
                 </div>
 
