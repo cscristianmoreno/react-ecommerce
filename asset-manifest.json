@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-ecommerce/static/css/main.60f6e0d5.css",
-    "main.js": "/react-ecommerce/static/js/main.bbdc3d1f.js",
+    "main.js": "/react-ecommerce/static/js/main.ce60a24f.js",
     "static/js/787.28cb0dcd.chunk.js": "/react-ecommerce/static/js/787.28cb0dcd.chunk.js",
     "static/media/imagen_anuncio.svg": "/react-ecommerce/static/media/imagen_anuncio.bbb46f3707c300ce7c9824ec8205f081.svg",
     "static/media/bermuda_hombre_algodon.jpg": "/react-ecommerce/static/media/bermuda_hombre_algodon.84a6d11e835aef01e85a.jpg",
@@ -46,11 +46,11 @@
     "static/media/css.svg": "/react-ecommerce/static/media/css.15fd914831e6ad139d7c90ee6aa099db.svg",
     "index.html": "/react-ecommerce/index.html",
     "main.60f6e0d5.css.map": "/react-ecommerce/static/css/main.60f6e0d5.css.map",
-    "main.bbdc3d1f.js.map": "/react-ecommerce/static/js/main.bbdc3d1f.js.map",
+    "main.ce60a24f.js.map": "/react-ecommerce/static/js/main.ce60a24f.js.map",
     "787.28cb0dcd.chunk.js.map": "/react-ecommerce/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.60f6e0d5.css",
-    "static/js/main.bbdc3d1f.js"
+    "static/js/main.ce60a24f.js"
   ]
 }
