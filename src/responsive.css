@@ -1,5 +1,5 @@
 /* Moto G4 - Galaxy S5 */
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 988px) {
 
     .class_main_container {
         display: flex;
@@ -238,6 +238,15 @@
         margin: 0;
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+
+    .class_profits_icon {
+        margin-top: 15px;
+    }
+
+    .class_profits_icon i {
+        font-size: 17px;
+        padding: 7px;
     }
 
     .class_profits_image {

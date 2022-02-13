@@ -1,7 +1,5 @@
 import "./Profits.css";
-import imagen_celular from "./images/imagen_celular.jpg"; 
-import imagen_hombre from "./images/imagen_hombre.jpg"; 
-import imagen_personas from "./images/imagen_personas.svg"; 
+import Personas from "./images/Personas.js";
 
 const Profits = () => {
     return(
@@ -59,8 +57,8 @@ const Profits = () => {
                         </div>
                     </div>
                 </div>
-                
-                 <img src={imagen_personas} className="class_profits_image"/>
+
+                <Personas/>
             </div>
 
             <div className="class_profits class_profits_responsive">
@@ -72,7 +70,7 @@ const Profits = () => {
                         podrás acceder a diferentes variedad de inumerables beneficios que ofrecemos, entre ellos se encuentran. 
                     </span>
 
-                    <img src={imagen_personas} className="class_profits_image"/>
+                    <Personas/>
 
                     <div className="class_profits_icons_container">
                         <div className="class_profits_icon">

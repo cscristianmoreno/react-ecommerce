@@ -1,11 +1,11 @@
 import "./Offer.css";
 
-import imagen_comodidad from "./images/comodidad.svg";
-import imagen_alcance from "./images/alcance.svg";
-import imagen_costos_reducidos from "./images/costos_reducidos.svg";
-import imagen_atencion from "./images/atencion.svg";
-import imagen_acepta_pagos from "./images/acepta_pagos.svg";
-import imagen_descuentos from "./images/descuentos.svg";
+import Comodidad from "./images/Comodidad.js";
+import Alcance from "./images/Alcance.js";
+import CostosReducidos from "./images/CostosReducidos.js";
+import Atencion from "./images/Atencion.js";
+import MetodosDePago from "./images/MetodosDePago.js";
+import Descuentos from "./images/Descuentos.js";
 
 const Offer = () => {
     return(
@@ -17,7 +17,7 @@ const Offer = () => {
 
             <div className="class_offer_icon_container">
                 <div className="class_offer_icon">
-                    <img src={imagen_comodidad} className="class_offer_image"/>
+                    <Comodidad/>
 
                     <div className="class_offer_icon_description_container">
                         <span className="class_offer_icon_description_title">COMODIDAD</span>
@@ -26,7 +26,7 @@ const Offer = () => {
                 </div>
 
                 <div className="class_offer_icon">
-                    <img src={imagen_alcance} className="class_offer_image"/>
+                    <Alcance/>
 
                     <div className="class_offer_icon_description_container">
                         <span className="class_offer_icon_description_title">ALCANCE</span>
@@ -35,8 +35,7 @@ const Offer = () => {
                 </div>
 
                 <div className="class_offer_icon">
-                    <img src={imagen_costos_reducidos} className="class_offer_image"/>
-
+                    <CostosReducidos/>
                     <div className="class_offer_icon_description_container">
                         <span className="class_offer_icon_description_title">COSTOS REDUCIDOS</span>
                         <span className="class_offer_icon_description_subtitle">Los compradores de E-Commerce ahorran más dinero y están más satisfechos</span>
@@ -44,7 +43,7 @@ const Offer = () => {
                 </div>
 
                 <div className="class_offer_icon">
-                    <img src={imagen_atencion} className="class_offer_image"/>
+                    <Atencion/>
 
                     <div className="class_offer_icon_description_container">
                         <span className="class_offer_icon_description_title">ATENCIÓN 24/7</span>
@@ -53,7 +52,7 @@ const Offer = () => {
                 </div>
 
                 <div className="class_offer_icon">
-                    <img src={imagen_acepta_pagos} className="class_offer_image"/>
+                    <MetodosDePago/>
 
                     <div className="class_offer_icon_description_container">
                         <span className="class_offer_icon_description_title">MÉTODOS DE PAGO</span>
@@ -62,7 +61,7 @@ const Offer = () => {
                 </div>
 
                 <div className="class_offer_icon">
-                    <img src={imagen_descuentos} className="class_offer_image"/>
+                    <Descuentos/>
 
                     <div className="class_offer_icon_description_container">
                         <span className="class_offer_icon_description_title">DESCUENTOS</span>

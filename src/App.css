@@ -12,3 +12,8 @@
     align-items: center;
     width: 100%;
 }
+
+svg path {
+    fill: white;
+    transition: 0.5s;
+}

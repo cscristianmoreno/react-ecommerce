@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState, createRef } from "react";
 import "./Menu.css";
 import Cookies from "universal-cookie";
 import IconEffectContext from "../Context/IconEffectContext.js";
+import ImagenMenu from "./images/ImagenMenu.js";
 
 const cookies = new Cookies();
 
@@ -58,8 +59,7 @@ const Menu = () => {
             <div ref={menuRef} className={"class_header_menu " + "class_menu_normal " + menuClass }>
                 <div className="class_header_menu_title">
                     <div className="class_header_title_container">
-                        <i className="fas fa-store"></i>
-                        <span className="header_title">E-commerce</span>
+                        <ImagenMenu/>
                     </div>
                 </div>
 
@@ -77,8 +77,7 @@ const Menu = () => {
 
             <div ref={menuRef} className={"class_header_menu " + "class_menu_responsive " + menuClass }>
                 <div className="class_header_title_container">
-                    <i className="fas fa-store"></i>
-                    <span className="header_title">E-commerce</span>
+                    <ImagenMenu/>
                 </div>
 
                 <div class="class_menu_icon_container">

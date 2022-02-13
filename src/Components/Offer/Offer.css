@@ -35,6 +35,16 @@
     height: 125px;
     border-radius: 100%;
     background-color: #047dc4;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.class_offer_image:hover {
+    background-color: orange;
+}
+
+.class_offer_image:hover path  {
+    fill: #047dc4;
 }
 
 .class_offer_icon {

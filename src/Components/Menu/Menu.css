@@ -22,12 +22,52 @@
     color: #5f5fe6;
 }
 
+.class_header_menu_color_default #class_menu_svg_image_path_1 {
+    fill: orange;
+    transition: 1s;
+}
+
+.class_header_menu_color_default #class_menu_svg_image_path_2 {
+    fill: #d48a00;
+    transition: 1s;
+}
+
+.class_header_menu_color_default #class_menu_svg_text path {
+    fill: #d48a00;
+    transition: 1s;
+}
+
+.class_header_menu_color_scroll #class_menu_svg_image_path_1 {
+    fill: #047dc4;
+    transition: 1s;
+}
+
+.class_header_menu_color_scroll #class_menu_svg_image_path_2 {
+    fill: #015586;
+    transition: 1s;
+}
+
+.class_header_menu_color_default #class_menu_svg_text path {
+    fill: orange;
+    transition: 1s;
+}
+
+.class_header_menu_color_scroll #class_menu_svg_text path {
+    fill: #015586;
+    transition: 1s;
+}
+
 .class_header_menu_color_scroll {
     color: #37333d;
     background-color: white;
     transition: 1s;
     height: 75px;
     box-shadow: 0px 0px 10px black;
+}
+
+#class_menu_svg_image {
+    width: 90px;
+    height: 90px;
 }
 
 .class_header_menu_color_scroll .class_menu_icon_container {
@@ -138,6 +178,11 @@
     font-size: 20px;
     margin-left: 10px;
     width: 175px;
+}
+
+.class_header_title_container img {
+    width: 100px;
+    height: 90px;
 }
 
 .class_menu_normal {
