@@ -196,3 +196,13 @@
 .class_menu_responsive_items {
     display: none;
 }
+
+.class_header_menu_color_default .class_menu_item_path {
+    color: orange !important;
+    transition: 0.5s;
+}
+
+.class_header_menu_color_scroll .class_menu_item_path {
+    color: #047dc4 !important;
+    transition: 0.5s;
+}
