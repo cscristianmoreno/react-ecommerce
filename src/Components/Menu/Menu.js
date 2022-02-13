@@ -31,8 +31,6 @@ const Menu = () => {
         
         const path = window.location.href.split("/").pop();
 
-        console.log(path);
-
         switch(path) {
             case "productos": {
                 menuItemProductos.current.classList.add("class_menu_item_path");
