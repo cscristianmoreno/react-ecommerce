@@ -45,7 +45,7 @@ const Menu = () => {
 
     const openMenu = () => {
         menuResponsiveRef.current.classList.toggle("class_menu_responsive_items_display");
-        menuIconRef.current.classList.toggle(iconState);
+        menuIconRef.current.classList.toggle(`${iconState}`);
     }
 
     return(
