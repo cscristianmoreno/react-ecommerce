@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import Header from "./Components/Header/Header.js";
 import Body from "./Components/Body/Body.js";
 import Menu from "./Components/Menu/Menu.js";
@@ -5,6 +7,7 @@ import Products from "./Components/Products/Products.js";
 import Footer from "./Components/Footer/Footer.js";
 import ShoppingCart from "./Components/ShoppingCart/ShoppingCart.js";
 import Project from "./Components/Project/Project.js";
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -15,6 +18,11 @@ import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 import { IconProvider } from "./Components/Context/IconEffectContext.js";
 
 const App = () => {
+
+    useEffect(() => {
+        window.scroll(0, 0);
+    }, []);
+
     return(
         <div className="class_main_container">
             <HashRouter>
